@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+.container 
+{
+    border: 1px solid darkgreen;
+    width: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+.magazine {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.screen {
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    gap: 60px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+}
+
+.container-2 
+{
+    display: flex;
+    padding: 2px;
+    height: 300px;
+
+}
+
+.life 
+{
+    background-color: #fff;
+    display: block;
+    border: 1px solid green;
+    padding-left: 40px;
+}
+
+.business 
+{
+    background-color: #fff;
+    border: 1px solid green;
+    padding-left: 40px;
+}
+
+.sports 
+{
+    background-color: #fff;
+    border: 1px solid green;
+    padding-left: 40px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 700px) 
+{
+    body {
+        background-color: palegreen;
+    }
+}
+@media screen and (max-width: 600px) 
+{
+    .container {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .container-2 {
+        flex-wrap: wrap;
+    }
+    .magazine {
+        width: 100%;
+    }
+    .screen {
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (min-width: 400px) 
+{
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 701px) 
+{
+    body {
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) 
+{
+    body {
+        background-color: darkgreen;
+    }
+}
